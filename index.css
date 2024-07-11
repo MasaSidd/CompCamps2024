@@ -1,21 +1,34 @@
-body{
+body {
     background-color: rgb(124, 64, 150);
 }
 
 main {
-width: 800px;
-margin-left: auto;
-margin-right: auto;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-header{
+header {
     text-align: center;
+    font-family: "Playwrite HR", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
-nav{
+nav {
     gap: 50px;
-    display:felx;
+    display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
+}
+
+a {
+    color:darkturquoise;
+}
+
+a:hover {
+    color:slateblue;
+    transform: rotate(5deg);
 }
