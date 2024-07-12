@@ -32,3 +32,9 @@ a:hover {
     color:slateblue;
     transform: rotate(5deg);
 }
+
+img{
+    width: 1000px;
+    height: 1000px;
+    margin: auto, 0;
+}
